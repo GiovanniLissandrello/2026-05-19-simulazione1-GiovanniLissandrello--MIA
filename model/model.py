@@ -31,7 +31,7 @@ class Model:
 
                     if self._graph.has_edge(Artista,Artista2) == False:
                         self._graph.add_edge(Artista,Artista2, weight = (int(dict_popolarita.get(Artista.ArtistId))) + int(dict_popolarita.get(Artista2.ArtistId)))
-
+                    #controllare se sono uguali
     def getAllGeneri(self):
         return DAO.getAllGeneri()
 
