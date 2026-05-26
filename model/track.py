@@ -5,7 +5,7 @@ class Track:
     TrackId : int
     Name : str
     AlbumId : int
-    UnitPrice :float
+    UnitPrice : float
 
     def __hash__(self):
         return hash(self.TrackId)
